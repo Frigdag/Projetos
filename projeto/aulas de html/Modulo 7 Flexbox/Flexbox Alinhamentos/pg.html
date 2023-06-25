@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style type="text/css">
+            .container {
+                display: flex;
+                height: 500px;
+                justify-content: space-around;
+                align-items:center;
+                background-color: coral;
+            }
+           
+            .container div {
+                width: 100px;
+                height: 100px;
+                background-color: teal;
+                margin: 10px;
+                padding: 10px;
+                font-size: 18px;
+            }
+
+            .div1 {
+                order: 1;
+            }
+            .div3 {
+                align-self: flex-end;
+                order: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="div1">1</div>
+            <div>2</div>
+            <div class="div3">3</div>
+            
+        </div>
+    </body>
+</html>
+<!--align-content:(for flexwrap only)-->

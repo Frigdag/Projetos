@@ -1,0 +1,14 @@
+body {
+    margin: 100px;
+}
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin-top: 100px;
+    margin: auto;
+    transition:all 1s linear;
+}
+.exemplo:hover {
+    width: 300px;
+}
